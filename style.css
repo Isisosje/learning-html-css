@@ -1,0 +1,16 @@
+body{
+    background-color: burlywood;
+}
+.container{
+    background-color: aqua;
+}
+.cont{
+    background-color: aliceblue;
+    color: red;
+    text-align: center;
+    font-size: 10px;
+    text-transform: capitalize;
+    text-decoration: underline;
+    text-decoration-color: aqua;
+    text-decoration-style: wavy;
+}
