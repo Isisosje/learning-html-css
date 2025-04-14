@@ -1,0 +1,78 @@
+
+body{
+    background-color: aliceblue;
+}
+.parent{
+    display: flex;
+    text-align: center;
+    padding-top: 30px;
+    padding-left: 290px;
+    padding-right: 240px;
+}
+p{
+    font-size: 20px;
+}
+.twit{
+   
+    margin-right: 40px;
+    border: 2px solid ;
+    text-align: center;
+    line-height: 30px;
+    padding-top: 40px;
+   
+    padding-bottom: 30px;
+}
+
+.insta{
+    padding-top: 30px;
+    margin-right: 40px;
+    
+    border: 2px solid ;
+    text-align: center;
+    line-height: 30px;
+    
+}
+
+.yt{
+    
+    border: 2px solid ;
+    text-align: center;
+    line-height: 30px;
+   margin-right: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+.button{
+    background-color: black;
+    color: aliceblue;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 20px;
+    font-size: 10px;
+    font-weight: bold;
+    word-spacing: 5px;
+}
+h1{
+    padding-top: 50px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    word-spacing: 10px;
+}
+/*JUSTIFY CONTENT NON DISPLAY FLEX NOT WORKING
+*/
+justify-content: space-around
+space-evenly
+center
+:start
+end
+/*
+alignt item for vertical
+align-item: center;
+gap between two center using justify content
+gap: 50 px;
+*/
