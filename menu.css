@@ -1,24 +1,41 @@
-*{
+/**{
     margin: 0%;
 }
 /*or*/
 body{
     margin: 0;
+    background-color: black;
 }
 nav{
-    background-color: yellow;
-    display: flex;
-    justify-content: space-evenly;
+    background-color: rgba(13, 13, 12, 0.842);
+    color: aliceblue;
     align-items: center;
+    padding: 7px;
     position: sticky;
     top: 0px;
-}
-ul{
+    font-size: 10px;
     display: flex;
+    justify-content:space-between;
+}
+nav .left{
+    display: flex;
+    justify-content: left;
     gap: 30px;
     list-style: none;
+
 }
-.imag1{
+nav .right{
+    display: flex;
+    justify-content: right;
+    font-size: 10px;
+}
+nav .right .signin{
+    background-color: rgba(97, 95, 95, 0.785);
+    color: aliceblue;
+    font-size: 10px;
+    padding: 7px;
+}
+/*.imag1{
     height: 100vh;
     background-image: url(wp2369259.jpg);
     background-size: cover;
@@ -27,4 +44,20 @@ ul{
     background-image: url(INSTA.jpg);
     height: 50vh;
     background-repeat: no-repeat;
+}*/
+
+nav .img{
+    background-color: rgba(0, 0, 0, 0.345);
+    border: none;
+    width: 10px;
+    color: aliceblue;
+    margin-left: 0%;
+}
+nav .about{
+    background-color: rgba(10, 0, 0, 0.591);
+    border: none;
+    color: aliceblue;
+    margin-left: 0%;
+    font-size: 10px;
+    
 }
